@@ -1,0 +1,32 @@
+{
+  "name": "genstate",
+  "version": "0.0.0",
+  "description": "Consume promises and generators to create a state",
+  "main": "index.js",
+  "scripts": {
+    "dev": "bundle src/*.js ./ --watch --external --browsers \"chrome 62\"",
+    "build": "bundle src/*.js ./ --external --browsers \"chrome 62\"",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uppercod/genstate.git"
+  },
+  "keywords": [
+    "state",
+    "generator",
+    "async"
+  ],
+  "author": "UpperCod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uppercod/genstate/issues"
+  },
+  "homepage": "https://github.com/uppercod/genstate#readme",
+  "dependencies": {
+    "bundle-cli": "^0.3.0"
+  },
+  "peerDependencies": {
+    "atomico": "^0.10.1"
+  }
+}
