@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Consume promises and generators to create a state",
   "main": "index.js",
+  "module": "index.js",
   "scripts": {
     "dev": "bundle src/*.js ./ --watch --external --browsers \"chrome 62\"",
     "build": "bundle src/*.js ./ --external --browsers \"chrome 62\"",
