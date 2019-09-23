@@ -78,7 +78,7 @@ since `genstate` will read the returns of the promise to define a next state, if
 ## hooks
 
 ```js
-import useGenerator from "generator/atomico";
+import useGenerator from "genstate/atomico";
 
 function WebComponent() {
 	let [state, send] = useGenerator(async *(state,search)=>{
