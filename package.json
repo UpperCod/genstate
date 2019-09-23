@@ -1,6 +1,6 @@
 {
   "name": "genstate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Consume promises and generators to create a state",
   "main": "index.js",
   "scripts": {
